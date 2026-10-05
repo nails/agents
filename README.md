@@ -23,3 +23,5 @@ Do not edit the symlinks. Change this repository, then pull again. If `agents/` 
 
 - **Conventions** go in `AGENTS.md`. Short, always on.
 - **Skills** go in `skills/<name>/SKILL.md`. Procedures the agent loads when the task matches.
+
+Shipped so far: `nails-add-migration`, `nails-add-admin-controller`, `nails-configure-component`.
