@@ -10,6 +10,10 @@ Each directory is its own git repo (`common`, `module-cdn`, `driver-invoice-stri
 
 Prefer `develop`. Some packages are still on `feature/pre-new-admin`; stay on that package's current branch unless the task is to move it.
 
+## Documentation
+
+Keep documentation in the same change as the behaviour. Framework docs live in the `docs` repo (`nails/docs`): GitBook markdown, table of contents in `SUMMARY.md`. Update the pages that describe what you changed; add a page and a `SUMMARY.md` entry when the behaviour is new. Package READMEs and other docs that cover the same thing must stay accurate too.
+
 ## PHP
 
 PHP 8.3+. Follow the surrounding file for formatting. Hungarian prefixes (`$o`, `$a`, `$s`, `$b`, `$i`) are deprecated: new code uses declared types and ordinary names (`User $user`, `array $rows`). Do not rename Hungarian in files you are not otherwise changing.
